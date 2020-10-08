@@ -12,6 +12,7 @@ import reactor.core.publisher.Mono;
 @Controller
 @RequestMapping(path = "post")
 @RequiredArgsConstructor
+@CrossOrigin
 public class PostController {
     private final PostRepository repository;
 

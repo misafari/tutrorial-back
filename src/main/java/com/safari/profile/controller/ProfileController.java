@@ -13,6 +13,7 @@ import javax.validation.Valid;
 @Controller
 @RequestMapping(path = "profile")
 @RequiredArgsConstructor
+@CrossOrigin
 public class ProfileController {
     private final ProfileRepository repository;
 
